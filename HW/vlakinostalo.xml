@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/campa/projekti/Zeleznica/projekti_vlak/vlakinostalo.sch</source>
+    <date>sre 04 jul 2018 22:45:01 CEST</date>
+    <tool>Eeschema 5.0.0-rc3-unknown-520c611~65~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>vlakinostalo.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="C-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55D764</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55D8BC</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55D985</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Flash</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="SW_Push-switches" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55DDEE</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>reset</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="SW_Push-switches" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55E368</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>U 6V-15V</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="vlakinostalo-rescue" part="Conn_01x02-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5F9681</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Bridge_+AA-</value>
+      <footprint>ESP-M:HD_bridge_bourns</footprint>
+      <libsource lib="vlakinostalo-rescue" part="D_Bridge_+AA--device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A96D010</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>ESP-M1&amp;M2</value>
+      <footprint>ESP-M:ESP-M2</footprint>
+      <libsource lib="vlakinostalo-rescue" part="ESP-M1&amp;M2-esp-m1&amp;m2" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55CF6D</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA8B084</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="vlakinostalo-rescue" part="R-device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA97B2D</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>BD6220F</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="vlakinostalo-rescue" part="BD6220F-dcdc" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9A4354</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_DC</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <libsource lib="vlakinostalo-rescue" part="Motor_DC-motors" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9B17B8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DS3501U</value>
+      <footprint>Package_SO:MSOP-10_3x3mm_P0.5mm</footprint>
+      <libsource lib="dcdc" part="DS3501U" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9BCE6E</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MAX15062A</value>
+      <footprint>Package_DFN_QFN:DFN-8_2x2mm_P0.5mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="MAX15062A" description="60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D4B22</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <footprint>Inductor_SMD:L_Coilcraft_LPS4018</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D9BB2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9F1D39</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA2A2C4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA23A22</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>50</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA41C3E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>LEDs</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Odd_Even" description="Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA4E71F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>FDG1024NZ</value>
+      <footprint>Package_TO_SOT_SMD:SOT-563</footprint>
+      <datasheet>http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDG1024NZ" description="1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA5FBE5</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A704A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3A7123</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3999B2</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ext C</value>
+      <footprint>Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="vlakinostalo-rescue" part="Conn_01x02-conn" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B3C2237</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="MAX15062A">
+      <aliases>
+        <alias>MAX15062B</alias>
+        <alias>MAX15062C</alias>
+      </aliases>
+      <description>60V, 300mA, synchronous step-down dc-dc converter, 3.3V fixed output voltage, DFN-8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX15062.pdf</docs>
+      <footprints>
+        <fp>DFN*2x2mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX15062A</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-8_2x2mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="EN/UVLO" type="input"/>
+        <pin num="3" name="VCC" type="power_out"/>
+        <pin num="4" name="FB/Vout" type="input"/>
+        <pin num="5" name="MODE" type="input"/>
+        <pin num="6" name="~RESET" type="openCol"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="LX" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="FDG1024NZ">
+      <description>1.2A Id, 20V Vds, Dual N-Channel MOSFET, 175mOhm Ron, SC-70-6</description>
+      <docs>http://www.fairchildsemi.com/ds/FD/FDG1024NZ.pdf</docs>
+      <footprints>
+        <fp>**SC?70*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">FDG1024NZ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="G" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dcdc" part="DS3501U">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS3501U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="A1" type="BiDi"/>
+        <pin num="5" name="A0" type="BiDi"/>
+        <pin num="6" name="RH" type="BiDi"/>
+        <pin num="7" name="RW" type="BiDi"/>
+        <pin num="8" name="RL" type="BiDi"/>
+        <pin num="9" name="V+" type="power_in"/>
+        <pin num="10" name="SCL" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="BD6220F-dcdc">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BD6220F-dcdc</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT1" type="BiDi"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="FIN" type="BiDi"/>
+        <pin num="5" name="RIN" type="BiDi"/>
+        <pin num="6" name="VREF" type="BiDi"/>
+        <pin num="7" name="OUT2" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="C-device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="Conn_01x02-conn">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="power_in"/>
+        <pin num="2" name="Pin_2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="D_Bridge_+AA--device">
+      <footprints>
+        <fp>D?Bridge*</fp>
+        <fp>D?Rectifier*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Bridge_+AA--device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="ESP-M1&amp;M2-esp-m1&amp;m2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">ESP-M1&amp;M2-esp-m1&amp;m2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADC" type="BiDi"/>
+        <pin num="2" name="EN" type="BiDi"/>
+        <pin num="3" name="IO14" type="BiDi"/>
+        <pin num="4" name="IO12" type="BiDi"/>
+        <pin num="5" name="IO13" type="BiDi"/>
+        <pin num="6" name="IO15" type="BiDi"/>
+        <pin num="7" name="VCC" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="IO2" type="BiDi"/>
+        <pin num="10" name="IO0" type="BiDi"/>
+        <pin num="11" name="IO4" type="BiDi"/>
+        <pin num="12" name="IO5" type="BiDi"/>
+        <pin num="13" name="GPIO3" type="BiDi"/>
+        <pin num="14" name="GPIO1" type="BiDi"/>
+        <pin num="15" name="RST" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="Motor_DC-motors">
+      <footprints>
+        <fp>Pin_Headers:Pin_Header_Straight_1x02</fp>
+        <fp>Connect:bornier2</fp>
+        <fp>TerminalBlock*2pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC-motors</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="R-device">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vlakinostalo-rescue" part="SW_Push-switches">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push-switches</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="dcdc">
+      <uri>/home/campa/projekti/Zeleznica/projekti_vlak/dcdc.lib</uri>
+    </library>
+    <library logical="vlakinostalo-rescue">
+      <uri>/home/campa/projekti/Zeleznica/projekti_vlak/vlakinostalo-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="9"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(L1-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D1" pin="4"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="8"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="4"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(Q1-Pad5)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="10" name="Net-(P1-Pad6)">
+      <node ref="P1" pin="6"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="11" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="Net-(P1-Pad14)">
+      <node ref="P1" pin="14"/>
+    </net>
+    <net code="15" name="Net-(P1-Pad13)">
+      <node ref="P1" pin="13"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad6)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q1" pin="6"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad3)">
+      <node ref="J2" pin="2"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="18" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="19" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="20" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="21" name="SCL">
+      <node ref="U2" pin="10"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="22" name="Net-(P1-Pad15)">
+      <node ref="P1" pin="15"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(P1-Pad10)">
+      <node ref="P1" pin="10"/>
+      <node ref="R2" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(P1-Pad9)">
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="9"/>
+    </net>
+    <net code="25" name="+3V3">
+      <node ref="U1" pin="4"/>
+      <node ref="P1" pin="7"/>
+      <node ref="R3" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="26" name="Rin">
+      <node ref="U3" pin="5"/>
+      <node ref="P1" pin="11"/>
+    </net>
+    <net code="27" name="Fin">
+      <node ref="U3" pin="4"/>
+      <node ref="P1" pin="12"/>
+    </net>
+    <net code="28" name="Net-(M1-Pad2)">
+      <node ref="U3" pin="7"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(M1-Pad1)">
+      <node ref="M1" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="30" name="SDA">
+      <node ref="P1" pin="5"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+  </nets>
+</export>
