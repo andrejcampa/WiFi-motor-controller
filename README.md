@@ -11,8 +11,8 @@ Key Specifications:
  
      
 - [1. HW Part](#1-hw-part) 
-- [2. SW Part](#2-SW-part)
-- [3. 3D Printed parts](#3-3D-printed-parts) 
+- [2. SW Part](#2-sw-part)
+- [3. 3D Printed parts](#3-3d-printed-parts) 
 
 
 
