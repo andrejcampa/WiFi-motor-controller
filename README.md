@@ -10,9 +10,9 @@ Key Specifications:
  # Contents
  
      
-- [1. HW Part](#1.-hw-part) 
-- [2. SW Part](#2.-SW-part)
-- [3. 3D Printed parts](#3.-3D-printed-parts) 
+- [1. HW Part](#1-hw-part) 
+- [2. SW Part](#2-SW-part)
+- [3. 3D Printed parts](#3-3D-printed-parts) 
 
 
 
