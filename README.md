@@ -69,7 +69,7 @@ Fig. 2.2: Screenshot of UI.
 ## 3. 3D printed parts
 The first 3-D printed locomotive is in directory 3D. You need FreeCAD to open and edit the locomotive hull. The completed locomotive can be seen in the [demonstration video](https://youtu.be/si7zXm7mwlY).
 
-To use the module with the 3D printed hull you also need Tomytec TM-07R Motorized Chassis (N scale). By connecting the LEDs and module like in Fig. 1.3 you should get a connection similar as shown in Fig. 3.1. For this project you can use very thin wires 0.05mm2 (30AWG) since the current capacity of such wire is enough for our 0.5A or 1A projects.
+To use the module with the 3D printed hull you also need Tomytec TM-07R Motorized Chassis (N scale). By connecting the LEDs (3 mm size) and module like in Fig. 1.3 you should get a connection similar as shown in Fig. 3.1. For this project you can use very thin wires 0.05mm2 (30AWG) since the current capacity of such wire is enough for our 0.5A or 1A maximal current.
 
 ![3D connection](https://raw.githubusercontent.com/andrejcampa/WiFi-motor-controller/master/docs/3Dconnection.png)
 
