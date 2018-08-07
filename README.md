@@ -84,7 +84,7 @@ You are encouraged to support the project in many different ways
 3. To create custom control panels in HTML.
 4. To develop new 3-D printable locomotives on different chassis.
 5. To make different toys using the module.
-6. ***And last and maybe also very important to support the project by donating the money. The development of the HW part and printable toys take not only the time but also other resources, I have to buy (PCB, electronic components, filament,…). Unfortunately, I have the very limited amount of the own funds for a project, to speed up the development process please thing about the donation. With the additional funds, even higher integration could be achieved (especially replacing the ESP module, with custom PCB antenna and ESP8285 SOC).***
+6. ***And last and maybe also very important to support the project by donating the money. The development of the HW part and printable toys take not only the time but also other resources, I have to buy (PCB, electronic components, filament,…). Unfortunately, I have the very limited amount of the own funds for a project, to speed up the development process please think about the donation. With the additional funds, even higher integration could be achieved (especially replacing the ESP module, with custom PCB antenna and ESP8285 SOC).***
 7. To reduce the costs of creating a module by yourself we could make a campaign for professional assembly, but the production should be around 100 pieces or more.
 8. For testing purposes (very limited amount of pieces) and for the compensation of the costs, I am willing to hand solder a few modules.
 
