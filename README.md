@@ -69,7 +69,7 @@ Fig. 2.2: Screenshot of UI.
 ## 3. 3D printed parts
 The first 3-D printed locomotive is in directory 3D. You need FreeCAD to open and edit the locomotive hull. The completed locomotive can be seen in the [demonstration video](https://youtu.be/si7zXm7mwlY).
 
-To use the module with the 3D printed hull you also need Tomytec TM-07R Motorized Chassis (N scale). By connecting the LEDs (3 mm size) and module like in Fig. 1.3 you should get a connection similar as shown in Fig. 3.1. For this project you can use very thin wires 0.05mm2 (30AWG) since the current capacity of such wire is enough for our 0.5A or 1A maximal current.
+To use the WiFi module with the 3D printed hull you also need Tomytec TM-07R Motorized Chassis (N scale). By connecting the LEDs (3 mm size) and module like in Fig. 1.3 you should get a connection similar as shown in Fig. 3.1. For this project you can use very thin wires 0.05mm2 (30AWG) since the current capacity of such wire is enough for our 0.5A or 1A maximal current.
 
 ![3D connection](https://raw.githubusercontent.com/andrejcampa/WiFi-motor-controller/master/docs/3Dconnection.png)
 
@@ -84,7 +84,7 @@ You are encouraged to support the project in many different ways
 3. To create custom control panels in HTML.
 4. To develop new 3-D printable locomotives on different chassis.
 5. To make different toys using the module.
-6. And last and maybe also very important to support the project by donating the money. The development of the HW part and printable toys take not only the time but also other resources, i have to buy (PCB, electronic components, filament,…). Unfortunately, I have the very limited amount of the money for a project, to speed up the development please thing about the donation. With the additional funds, even higher integration could be achieved (especially replacing the ESP module, with custom PCB antenna and ESP8285 SOC).
+6. ***And last and maybe also very important to support the project by donating the money. The development of the HW part and printable toys take not only the time but also other resources, I have to buy (PCB, electronic components, filament,…). Unfortunately, I have the very limited amount of the own funds for a project, to speed up the development process please thing about the donation. With the additional funds, even higher integration could be achieved (especially replacing the ESP module, with custom PCB antenna and ESP8285 SOC).***
 7. To reduce the costs of creating a module by yourself we could make a campaign for professional assembly, but the production should be around 100 pieces or more.
 8. For testing purposes (very limited amount of pieces) and for the compensation of the costs, I am willing to hand solder a few modules.
 
